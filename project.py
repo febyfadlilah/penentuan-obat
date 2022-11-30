@@ -50,6 +50,7 @@ with home:
     st.write("Tabel Tingkat Kolesterol dapat dilihat dibawah ini : ")
     st.image(img, caption='Tabel Tingkat Kolesterol')
     st.write("* Rasio Na terhadap Kalium (Na_to_K)")
+    st.write("Tekanan darah tinggi disebabkan oleh retensi natrium dalam darah. Kalium dapat menurunkan tekanan darah dengan menimbulkan efek vasodilatasi sehingga menyebabkan retensi perifer total.Oleh karena itu perbandingan rasio natrium dibanding kalium yang baik adalah 1:1")
     st.write("Menurut penelitian, dari 19 subyek yang memiliki rasio asupan natrium:kalium baik, 15 (78,95%) subyek tidak mengalami hipertensi atau memiliki tekanan darah diastolik normal, sedangkan 50% subyek memiliki tekanan darah sistolik tidak normal, seperti yang tersaji pada tabel berikut")
     st.image(rasio, caption='Tabel Rasio Na:K dengan Hipertensi')
     st.write("Penggunaan beberapa jenis obat secara umum adalah Obat X dan Y adalah obat untuk rasio kalium dalam darah. Obat C adalah untuk orang dengan riwayat tekanan darah rendah. Obat A dan B untuk tekanan darah tinggi, dengan catatan usia dibawah 50 tahun meminum obat jenis A dan yang diatas 50 tahun meminum obat jenis B.")
