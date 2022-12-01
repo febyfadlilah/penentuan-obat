@@ -20,6 +20,7 @@ from PIL import Image
 image = Image.open('tekanan.png')
 img = Image.open('kol.jpg')
 rasio = Image.open('rasio.png')
+obat = Image.open('obat.jpg')
 
 #intial template
 px.defaults.template = "plotly_dark"
@@ -34,6 +35,7 @@ home,preprocessing, modeling, implementation = st.tabs(["Home", "Preprocessing",
 
 with home:
     st.header("About DataSet")
+    st.image(obat, caption='Klasifikasi Jenis Obat')
     st.write("Pada aplikasi ini dataset yang digunakan adalah dataset yang berisikan klasifikasi jenis obat.")
     st.write("Dataset yang digunakan pada aplikasi ini diambil dari https://www.kaggle.com/datasets/prathamtripathi/drug-classification")
     st.write("Sasaran dari klasifikasi ini adalah Jenis Obat. Untuk Menentukan Jenis Obat tersebut maka diperlukan pendukung seperti : ")
